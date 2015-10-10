@@ -30,7 +30,7 @@ number_regex='^[0-9]+$'
 # Read the user's input and test if it is valide
 while true
 do
-	printf "${RED}Which USB drive will you use ?${NC}\n"
+	printf "${RED}Ach t7eb taw nti ? ?${NC}\n"
 	read usb_choice
 	# Test if it's a number
 	if ! [[ $usb_choice =~ $number_regex ]]
